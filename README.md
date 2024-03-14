@@ -12,13 +12,17 @@ In the process of making the classifier certain steps must be taken in order to 
 - Remove dodgy images by specifying certain extensions and anything else remove it.
 - Loading dataset in data variable and iterating on it then dividing it by 255 to scale them between 0 and 1 and include with them the class they belong to in one_hot encoding.
 ![Data](readme/data.png)
+
 - Splitting data into train, validation, and test data.
 - Building Deep Learning Model and adding to the model Conv2D, Maxpooling2D, Flatten, and Dense Layers then compiling it.
+
 ![Model](readme/model.png)
 - Training and validating model with training and validation data.
 [Train](readme/train.png)
+
 - Plotting Loss and Accuracy to check the decrease in loss and increase in accuracy.
-![Loss](readme/loss.png | width=100 ) ![Accuracy](readme/accuracy.png)
+![Loss](readme/loss.png) ![Accuracy](readme/accuracy.png)
+
 - Evaluating the model using Precision, Recall and BinaryAccuracy.
 - Testing Model with photos it has never seen stored in **manualtest** folder
 ![Test](readme/test.png)
