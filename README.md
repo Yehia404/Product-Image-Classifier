@@ -18,7 +18,7 @@ In the process of making the classifier certain steps must be taken in order to 
 - Training and validating model with training and validation data.
 [Train](readme/train.png)
 - Plotting Loss and Accuracy to check the decrease in loss and increase in accuracy.
-![Loss](readme/loss.png) ![Accuracy](readme/accuracy.png)
+![Loss](readme/loss.png | width=100 ) ![Accuracy](readme/accuracy.png)
 - Evaluating the model using Precision, Recall and BinaryAccuracy.
 - Testing Model with photos it has never seen stored in **manualtest** folder
 ![Test](readme/test.png)
